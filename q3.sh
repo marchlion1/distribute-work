@@ -6,3 +6,5 @@ awk 'END{print NR}' "$NA" > "$NAME"
 
 SUMCHAR=`wc -c $NA`
 echo "the sum of char is $SUMCHAR">>"$NAME"
+
+echo "change in window"
